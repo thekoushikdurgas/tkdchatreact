@@ -1,0 +1,47 @@
+@font-face{font-family:Graphik Web;src:url(https://thekoushikdurgas.github.io/TKDstroage/fonts/graphik/Graphik-Bold-Web.eot);src:url(https://thekoushikdurgas.github.io/TKDstroage/fonts/graphik/Graphik-Bold-Web.eot?#iefix) format("embedded-opentype"),url(https://thekoushikdurgas.github.io/TKDstroage/fonts/graphik/Graphik-Bold-Web.woff2) format("woff2"),url(https://thekoushikdurgas.github.io/TKDstroage/fonts/graphik/Graphik-Bold-Web.woff) format("woff");font-weight:700;font-style:normal;font-stretch:normal}
+@font-face{font-family:Graphik Web;src:url(https://thekoushikdurgas.github.io/TKDstroage/fonts/graphik/Graphik-Semibold-Web.eot);src:url(https://thekoushikdurgas.github.io/TKDstroage/fonts/graphik/Graphik-Semibold-Web.eot?#iefix) format("embedded-opentype"),url(https://thekoushikdurgas.github.io/TKDstroage/fonts/graphik/Graphik-Semibold-Web.woff2) format("woff2"),url(https://thekoushikdurgas.github.io/TKDstroage/fonts/graphik/Graphik-Semibold-Web.woff) format("woff");font-weight:600;font-style:normal;font-stretch:normal}
+@font-face{font-family:Graphik Web;src:url(https://thekoushikdurgas.github.io/TKDstroage/fonts/graphik/Graphik-Medium-Web.eot);src:url(https://thekoushikdurgas.github.io/TKDstroage/fonts/graphik/Graphik-Medium-Web.eot?#iefix) format("embedded-opentype"),url(https://thekoushikdurgas.github.io/TKDstroage/fonts/graphik/Graphik-Medium-Web.woff2) format("woff2"),url(https://thekoushikdurgas.github.io/TKDstroage/fonts/graphik/Graphik-Medium-Web.woff) format("woff");font-weight:500;font-style:normal;font-stretch:normal}
+@font-face{font-family:Graphik Web;src:url(https://thekoushikdurgas.github.io/TKDstroage/fonts/graphik/Graphik-Regular-Web.eot);src:url(https://thekoushikdurgas.github.io/TKDstroage/fonts/graphik/Graphik-Regular-Web.eot?#iefix) format("embedded-opentype"),url(https://thekoushikdurgas.github.io/TKDstroage/fonts/graphik/Graphik-Regular-Web.woff2) format("woff2"),url(https://thekoushikdurgas.github.io/TKDstroage/fonts/graphik/Graphik-Regular-Web.woff) format("woff");font-weight:400;font-style:normal;font-stretch:normal}
+@font-face{font-family:Graphik Web;src:url(https://thekoushikdurgas.github.io/TKDstroage/fonts/graphik/Graphik-LightItalic-Web.woff2) format("woff2"),url(https://thekoushikdurgas.github.io/TKDstroage/fonts/graphik/Graphik-LightItalic-Web.woff) format("woff");font-weight:300;font-style:italic;font-stretch:normal}
+@font-face{font-family:Graphik Web;src:url(https://thekoushikdurgas.github.io/TKDstroage/fonts/graphik/Graphik-Light-Web.woff2) format("woff2"),url(https://thekoushikdurgas.github.io/TKDstroage/fonts/graphik/Graphik-Light-Web.woff) format("woff");font-weight:300;font-style:normal;font-stretch:normal}
+@font-face{font-family:icon;src:url(https://thekoushikdurgas.github.io/TKDstroage/fonts/icon/icon.eot?i6qtmk);src:url(https://thekoushikdurgas.github.io/TKDstroage/fonts/icon/icon.eot?i6qtmk#iefix) format("embedded-opentype"),url(https://thekoushikdurgas.github.io/TKDstroage/fonts/icon/icon.ttf?i6qtmk) format("truetype"),url(https://thekoushikdurgas.github.io/TKDstroage/fonts/icon/icon.woff?i6qtmk) format("woff"),url(https://thekoushikdurgas.github.io/TKDstroage/fonts/icon/icon.svg?i6qtmk#icon) format("svg");font-weight:400;font-style:normal;font-display:block}
+[class*=" graphik-"],[class^="graphik-"]{font-family:icon!important;speak:never;font-style:normal;font-weight:400;font-feature-settings:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.graphik-chevron-down:before{content:"\e89a"}
+.graphik-chevron-up:before{content:"\e89b"}
+.graphik-search:before{content:"\e89c"}
+.graphik-chevron-right:before{content:"\e900"}
+.graphik-chevron-left:before{content:"\e901"}
+.graphik-captions:before{content:"\e902"}
+.graphik-forward:before{content:"\e903"}
+.graphik-fullscreen:before{content:"\e904"}
+.graphik-pause:before{content:"\e905"}
+.graphik-picture-in-picture:before{content:"\e906"}
+.graphik-play:before{content:"\e907"}
+.graphik-rewind:before{content:"\e908"}
+.graphik-settings:before{content:"\e909"}
+.graphik-sound-1:before{content:"\e90a"}
+.graphik-sound-2:before{content:"\e90b"}
+.graphik-sound-full:before{content:"\e90c"}
+.graphik-sound-off:before{content:"\e90d"}
+.graphik-exit-fullscreen:before{content:"\e90e"}
+.graphik-android-tv:before{content:"\e90f"}
+.graphik-roku:before{content:"\e910"}
+.graphik-vizio:before{content:"\e911"}
+.graphik-tivo:before{content:"\e912"}
+.graphik-xbox:before{content:"\e913"}
+.graphik-sony:before{content:"\e919"}
+.graphik-android:before{content:"\e91a"}
+.graphik-apple-tv:before{content:"\e91b"}
+.graphik-firestick:before{content:"\e914"}
+.graphik-firetv:before{content:"\e915"}
+.graphik-chromecast:before{content:"\e91c"}
+.graphik-ipad:before{content:"\e91f"}
+.graphik-iphone:before{content:"\e920"}
+.graphik-samsung:before{content:"\e921"}
+.graphik-ps4:before{content:"\e916"}
+@font-face{font-family:VideoJS;src:url(https://thekoushikdurgas.github.io/TKDstroage/fonts/VideoJS.woff) format("woff");font-weight:400;font-style:normal}
+.videoJS-audio-button,.videoJS-close-button,.videoJS-icon-spinner{font-family:VideoJS;font-weight:400;font-style:normal}
+.videoJS-icon-spinner:before{content:"\f10b"}
+.videoJS-close-button:before{content:"\f115"}
+.videoJS-audio-button:before{content:"\f11e"}
+.videoJS-datepicker-close:after{content:"\00d7"}

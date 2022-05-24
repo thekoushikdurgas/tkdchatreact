@@ -1,0 +1,20 @@
+@font-face{font-family:"thekoushikdurgas";src:url("https://thekoushikdurgas.github.io/TKDstroage/fonts/thekoushikdurgas.eot?nm5r73");src:url("https://thekoushikdurgas.github.io/TKDstroage/fonts/thekoushikdurgas.eot?nm5r73#iefix") format("embedded-opentype"),url("https://thekoushikdurgas.github.io/TKDstroage/fonts/thekoushikdurgas.ttf?nm5r73") format("truetype"),url("https://thekoushikdurgas.github.io/TKDstroage/fonts/thekoushikdurgas.woff?nm5r73") format("woff"),url("https://thekoushikdurgas.github.io/TKDstroage/fonts/thekoushikdurgas.svg?nm5r73#thekoushikdurgas") format("svg");font-weight:normal;font-style:normal;font-display:block}
+[class^="tkd-"],[class*=" tkd-"]{font-family:"thekoushikdurgas"!important;speak:never;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.tkd-double_tick:before{content:"\e900"}
+.tkd-gmail:before{content:"\e901"}
+.tkd-graduation_cap:before{content:"\e902"}
+.tkd-hangingclock:before{content:"\e903"}
+.tkd-pause:before{content:"\e904"}
+.tkd-play:before{content:"\e905"}
+.tkd-quote:before{content:"\e906"}
+.tkd-spinnerarrow:before{content:"\e907"}
+.tkd-Tictactoebg:before{content:"\e908"}
+.tkd-title .path1:before{content:"\e909";color:rgb(250,99,5)}
+.tkd-title .path2:before{content:"\e90a";margin-left:-1em;color:rgb(50,4,4)}
+.tkd-title2:before{content:"\e90b"}
+.tkd-title3:before{content:"\e90d"}
+.tkd-title4:before{content:"\e911"}
+.tkd-website .path2:before{content:"\e917"}
+.tkd-website .path3:before{content:"\e918";margin-left:-1em}
+.tkd-website .path4:before{content:"\e919";margin-left:-1em}
+.tkd-whatsapp:before{content:"\e91b"}

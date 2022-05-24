@@ -1,0 +1,787 @@
+.lurcard {
+  display: flex;
+  position: relative;
+  animation: 0.7s ease 0s 1 normal none running zoomin;
+  padding: 10px;
+  user-select: none;
+  margin: -40px auto 29px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 50px rgb(0 0 0 / 15%);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  flex-direction: column;
+}
+.login,
+.user,
+.register {
+  width: 390px;
+}
+.login h2,
+.user h2,
+.register h2 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  font-family: "Roboto";
+  top: 0;
+  height: 30px;
+  text-align: center;
+  border-radius: 0 0 10px 10px;
+  color: var(--text-color);
+  font-size: 18px;
+  line-height: 1.5;
+  z-index: 200;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 50px rgb(0 0 0 / 15%);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+.user p {
+  text-align: center;
+  font-family: "Acme", sans-serif;
+  font-size: 15px;
+}
+.lurcard .logincl,
+.lurcard .usercl {
+  padding: 21px 14px;
+}
+.lurcard .form-outer {
+  width: 100%;
+  overflow: hidden;
+}
+.lurcard .silder-form {
+  display: flex;
+  width: 400%;
+}
+.lurcard .form-outer .silder-form .page .title1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+.lurcard .field select {
+  width: 96%;
+  font-weight: 500;
+  margin: 0 auto;
+  height: 100%;
+  outline: none;
+  padding: 0 36px 0 15px;
+  font-size: 17px;
+  transition: all 0.3s ease 0s;
+  font-family: Acme, sans-serif;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border: none;
+  color: var(--text-color);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 50px rgb(0 0 0 / 15%);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+.lurcard .form-outer .silder-form .page {
+  width: 25%;
+  transition: margin-left 0.3s ease-in-out;
+}
+.lurcard .field button,
+.lurcard .field input[type="submit"] {
+  width: 80%;
+  z-index: 1;
+  position: relative;
+  font-size: 20px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: flex;
+  text-decoration: none;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  outline: none;
+  border: none;
+  background: var(--background-color);
+  border-radius: 20px;
+  box-shadow: inset 5px 5px 15px #96969680, inset -5px -5px 15px #00000080,
+    3px 3px 5px #000000b3;
+  transition: box-shadow 0.15s;
+  line-height: 0;
+  color: var(--text-color);
+}
+.lurcard .field button:active,
+.lurcard .field input[type="submit"]:active {
+  transform: scale(0.95);
+}
+.lurcard .btnbtns div.pre {
+  margin-right: 3px;
+  font-size: 17px;
+  margin-top: 0;
+}
+.lurcard .btnbtns div.nex {
+  margin-left: 3px;
+  margin-top: 0;
+}
+.lurcard input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+.lurcard .signup-link {
+  text-align: center;
+  color: var(--text-color);
+}
+.lurcard .signup-link a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-family: "Acme", sans-serif;
+}
+.lurcard .signup-link a:hover {
+  text-decoration: underline;
+}
+.lurcard .terms {
+  text-align: center;
+  position: relative;
+  padding: 0;
+  margin-top: 7px;
+  font-size: smaller;
+}
+.lurcard .terms a {
+  color: var(--tkd2);
+  text-decoration: none;
+  font-weight: 500;
+  font-family: "Acme", sans-serif;
+}
+.lurcard .terms a:hover {
+  text-decoration: underline;
+}
+.lurcard .content1 {
+  display: flex;
+  font-size: 17px;
+  justify-content: space-evenly;
+}
+.lurcard .content1 .remember {
+  width: 50%;
+}
+.lurcard .content1 label {
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--text-color);
+}
+.lurcard .register1 {
+  width: 100%;
+  text-align: center;
+  padding: 18px 8px 11px;
+}
+.lurcard .register1 .progressbar {
+  display: flex;
+  user-select: none;
+}
+.lurcard .register1 .progressbar .step {
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+.lurcard .register1 .progressbar .step p {
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--text-color);
+  margin-bottom: 8px;
+}
+.lurcard .progressbar .step .bullet {
+  height: 25px;
+  width: 25px;
+  display: flex;
+  border-radius: 50%;
+  position: relative;
+  transition: 0.2s;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  z-index: 1;
+  background: var(--tkd3);
+  color: var(--tkd2);
+  align-items: center;
+  justify-content: center;
+  margin: 9px auto 0;
+}
+.lurcard .progressbar .step.active .bullet {
+}
+.lurcard .progressbar .step .bullet span {
+}
+.lurcard .progressbar .step.active .bullet span {
+  display: none;
+}
+.lurcard .progressbar .step .bullet:before {
+}
+.lurcard .progressbar .step.active .bullet:before {
+}
+.lurcard .progressbar .step .bullet:after {
+  position: absolute;
+  content: "";
+  bottom: 12px;
+  right: -64px;
+  height: 3px;
+  width: 65px;
+  background: var(--text-color);
+  z-index: -1;
+  border-radius: 20px;
+}
+.lurcard .progressbar .step.active .bullet:after {
+  background: #0c0;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 0.3s linear forwards;
+}
+.lurcard .progressbar .step:last-child .bullet:before,
+.lurcard .progressbar .step:last-child .bullet:after {
+  display: none;
+}
+.lurcard .progressbar .step.active p {
+  color: #0c0;
+  transition: 0.2s linear;
+}
+.lurcard .progressbar .step .check1 {
+  position: absolute;
+  left: 50%;
+  top: 23px;
+  font-size: 15px;
+  transform: translate(-50%, -50%);
+  display: none;
+  z-index: 2;
+  color: #0c0;
+}
+.lurcard .progressbar .step.active .check1 {
+  display: flex;
+}
+.lurcard .seperator {
+  position: relative;
+  width: 100%;
+  margin: 24px 0;
+}
+.lurcard .seperator .shadow1 {
+  overflow: hidden;
+}
+.lurcard .seperator .shadow1:after {
+  content: "";
+}
+.lurcard .seperator .text {
+  position: absolute;
+  left: 43%;
+  top: -18px;
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  color: var(--text-color);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 50px rgb(0 0 0 / 15%);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+.lurcard .social-icon p {
+  text-align: center;
+  font-size: 14px;
+  margin: 17px 0;
+  position: relative;
+  color: var(--text-color);
+}
+.lurcard .socialiconbutton {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px 0;
+}
+.lurcard .social-icon button {
+  transform: rotate(0deg);
+  transition: all 1s;
+  transform-origin: center;
+  font-size: 25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  padding: 12px;
+  border: none;
+  color: var(--text-color);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 50px rgb(0 0 0 / 15%);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+.lurcard .social-icon i {
+  transform: scale(1);
+  transition: all 1s;
+  transform-origin: center;
+  background: conic-gradient(
+    #0c0 16.666%,
+    #c00 16.666%,
+    #0c0 33.333%,
+    #c00 33.333%,
+    #0c0 50%,
+    #c00 50%,
+    #0c0 66.666%,
+    #c00 66.666%,
+    #0c0 83.333%,
+    #c00 83.333%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.lurcard .social-icon button:hover {
+  transform: rotate(360deg);
+}
+.lurcard .social-icon button:hover i {
+  transform: scale(1.3);
+}
+.lurcard .field i {
+  position: absolute;
+  right: 10px;
+  top: 33%;
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
+.lurcard .genderradio {
+  display: -webkit-inline-box;
+  margin: 7px auto 0;
+}
+.lurcard .genderradio label {
+  padding: 7px;
+  color: #2c0101;
+  background: #fe6100;
+  cursor: pointer;
+  transition: all 0.1s cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-shadow: 0 1px 3px #2c0101, 0 1px 2px #2c0101;
+  cursor: pointer;
+  border-radius: 20px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 4px 6px;
+  flex-direction: row;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border: none;
+  color: var(--text-color);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 50px rgb(0 0 0 / 15%);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+.lurcard .genderradio label:hover {
+  box-shadow: 0 0 5px #333;
+}
+.lurcard .genderradio label span {
+  padding: 0 5px;
+}
+.lurcard .genderradio input[type="radio"]:checked + label {
+  background: var(--tkd3);
+  color: var(--tkd2);
+}
+.lurcard .checkbox1 {
+  --background: #fff;
+  --border: #d1d6ee;
+  --border-hover: #bbc1e1;
+  --border-active: #1e2235;
+  --tick: #fff;
+  position: relative;
+}
+.lurcard .checkbox1 input,
+.lurcard .checkbox1 svg {
+  width: 21px;
+  height: 21px;
+  display: block;
+}
+.lurcard .checkbox1 input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+  outline: none;
+  background: var(--background);
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: box-shadow 0.3s;
+  box-shadow: inset 0 0 0 var(--s, 1px) var(--b, var(--border));
+}
+.lurcard .checkbox1 input:hover {
+  --s: 2px;
+  --b: var(--border-hover);
+}
+.lurcard .checkbox1 input:checked {
+  --b: var(--border-active);
+}
+.lurcard .checkbox1 svg {
+  pointer-events: none;
+  fill: none;
+  stroke-width: 2px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: var(--stroke, var(--border-active));
+  position: absolute;
+  top: 2px;
+  left: 4.5px;
+  width: 21px;
+  height: 21px;
+  transform: scale(var(--scale, 1)) translateZ(0);
+}
+.register .checkbox1 svg {
+  left: 0;
+  top: 0;
+}
+.lurcard .checkbox1.path input:checked {
+  --s: 2px;
+  transition-delay: 0.4s;
+}
+.lurcard .checkbox1.path input:checked + svg {
+  --a: 16.1 86.12;
+  --o: 102.22;
+}
+.lurcard .checkbox1.path svg {
+  stroke-dasharray: var(--a, 86.12);
+  stroke-dashoffset: var(--o, 86.12);
+  transition: stroke-dasharray 0.6s, stroke-dashoffset 0.6s;
+}
+.lurcard .field1 {
+  width: 100%;
+  height: 45px;
+  display: flex;
+}
+.lurcard .ingro {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  width: 95%;
+  margin: 20px auto;
+  outline: none;
+  font-size: 17px;
+  transition: all 0.3s ease 0s;
+  font-family: Acme, sans-serif;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border: none;
+  color: var(--text-color);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 50px rgb(0 0 0 / 15%);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+.lurcard .field1 input {
+  height: 45px;
+  width: 85%;
+  padding: 15px;
+  transition: all 0.3s ease;
+  position: absolute;
+  font-size: 1rem;
+  background: none;
+  border: none;
+  border-left: 2px solid #2c0101;
+  color: var(--text-color);
+}
+.lurcard .field1 input:focus {
+  border-color: blueviolet;
+}
+.lurcard .ingroic {
+  display: flex;
+}
+.lurcard .ingrotext {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.lurcard .labello1 {
+  position: absolute;
+  top: 50%;
+  left: 21%;
+  font-weight: 400;
+  font-size: 17px;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+  font-family: "Acme", sans-serif;
+}
+.lurcard .field1 input:focus ~ .labello1,
+.lurcard .field1 input:valid ~ .labello1 {
+  top: -10px;
+  font-size: 16px;
+}
+.lurcard input {
+}
+.lurcard input:hover {
+}
+.lurcard select {
+}
+.lurcard select:hover {
+}
+.lurcard i {
+  transition: text-shadow 0.1s cubic-bezier(0.25, 0.8, 0.25, 1);
+  text-shadow: 0 1px 3px #0000001f, 0 1px 2px #0000003d;
+}
+.lurcard i:hover {
+  text-shadow: 0 14px 28px #00000040, 0 10px 10px #00000038;
+}
+.lurcard .labello {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 17px;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+  font-family: "Acme", sans-serif;
+}
+.lurcard .field input:focus ~ .labello,
+.lurcard .field input:valid ~ .labello {
+  top: -10px;
+  left: 14px;
+  font-size: 16px;
+  transform: translateY(-50%);
+}
+.lurcard input::placeholder {
+  transition: all 0.3s ease;
+}
+.lurcard input:focus::placeholder {
+}
+.lurcard input::-webkit-input-placeholder {
+  opacity: 0;
+}
+.lurcard input:focus::-webkit-input-placeholder {
+  opacity: 1;
+}
+.lurcard .field {
+  width: 95%;
+  height: 45px;
+  margin: 21px auto;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+}
+.lurcard .btnbtn,
+.lurcard .btnbtns {
+  width: 100%;
+  overflow: hidden;
+  margin: 9px auto 0;
+  height: 52px;
+}
+.lurcard .fieldselect {
+}
+.lurcard .inputlo {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 36px 0 15px;
+  font-size: 17px;
+  transition: all 0.3s ease 0s;
+  position: absolute;
+  font-family: Acme, sans-serif;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border: none;
+  color: var(--text-color);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 50px rgb(0 0 0 / 15%);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+.lurcard .error {
+  position: absolute;
+  font-weight: 400;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  top: -10px;
+  font-size: 16px;
+  transform: translateY(-50%);
+  color: var(--tkdred);
+  right: 22px;
+  width: auto;
+  font-family: "Acme", sans-serif;
+  text-shadow: 0 0 0 #2c0101, 0 0 0 #2c0101;
+}
+.lurcard .c1 {
+  border: 2px solid red;
+}
+.lurcard .c1:hover {
+}
+.lurcard .c2 {
+  border: 2px solid #34f04a;
+}
+.lurcard .c2:hover {
+}
+.lurcard #message span {
+  padding: 0 10px 0 0;
+  font-size: 15px;
+}
+.lurcard .val {
+  color: var(--tkdgreen);
+}
+.lurcard .val:before {
+  position: relative;
+  left: -5px;
+  top: 1px;
+  content: "✔";
+}
+.lurcard .inval {
+  color: var(--tkdred);
+}
+.lurcard .inval:before {
+  position: relative;
+  left: -5px;
+  top: 1px;
+  content: "✖";
+}
+.lurcard #message {
+  position: absolute;
+  top: 38%;
+  left: 97%;
+  width: 10rem;
+  height: 140px;
+  z-index: 5;
+  transform: scale(0);
+  transform-origin: left;
+}
+.lurcard #message.active {
+  transform: scale(1);
+}
+.lurcard #message .messagerow {
+  font-size: 15px;
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 2;
+  margin-top: 17px;
+  border-radius: 10px;
+  color: var(--text-color);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 50px rgb(0 0 0 / 15%);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+.lurcard #message:before {
+  content: "";
+  position: absolute;
+  background: var(--yellow);
+  width: 20px;
+  height: 20px;
+  transform: rotate(90deg);
+  left: -20px;
+  top: 40%;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid rgba(255, 255, 255, 0.5);
+}
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+  }
+}
+.lurcard fieldset {
+  width: 93%;
+  margin: auto;
+  border-radius: 10px;
+  border: none;
+  color: var(--text-color);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 50px rgb(0 0 0 / 15%);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+.lurcard legend {
+  padding: 2px 8px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: var(--tkd1);
+  border: 3px solid var(--tkd2);
+  box-shadow: 0 0 4px 0 #2c0101, 0 0 12px 0 #2c0101, inset 0 0 7px 0 #2c0101;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border: none;
+  color: var(--text-color);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 50px rgb(0 0 0 / 15%);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+.lurcard .field select option {
+  color: var(--tkd2);
+  font-size: 17px;
+  font-family: Acme, sans-serif;
+}
+.lurcard .registerdiv {
+  margin: 25px 0;
+}
+.lurcard .registerdiv p:first-of-type {
+  border-top: 2px solid #009879;
+}
+.lurcard .registerdiv p {
+  border-bottom: 1px solid #000000;
+  text-align: initial;
+  padding: 6px 11px;
+}
+.lurcard .registerdiv p:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.lurcard .registerdiv p:nth-child(even) {
+  background-color: #f3f3f3;
+}
+.lurcard .registerdiv p span:first-of-type {
+  margin-right: 12px;
+}
+@keyframes zoomin {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.04);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
